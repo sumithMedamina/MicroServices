@@ -1,0 +1,7 @@
+package com.ms.api.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OrderReopository extends JpaRepository<T, ID> {
+
+}

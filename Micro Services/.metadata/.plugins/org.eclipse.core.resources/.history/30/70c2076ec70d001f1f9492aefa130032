@@ -1,0 +1,5 @@
+package com.ms.api.entity;
+
+public class UserDetails {
+
+}

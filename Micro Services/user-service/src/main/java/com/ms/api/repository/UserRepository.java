@@ -1,0 +1,11 @@
+package com.ms.api.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ms.api.entity.UserDetails;
+
+public interface UserRepository extends JpaRepository<UserDetails, String> {
+
+	UserDetails findByEmailAndPassword(String email, String password);
+
+}
